@@ -43,7 +43,8 @@ Kontrol 5 dakikada bir yapılır, GitHub yoğunluğa göre geciktirebilir; acil 
 2. Kanalın ⚙️ ayarları → **Integrations → Webhooks → New Webhook → Copy Webhook URL**.
 3. Repo → **Settings → Secrets and variables → Actions** → `DISCORD_WEBHOOK_URL` adıyla bu adresi ekle.
 4. (İsteğe bağlı) *Variables* sekmesine `MIN_MAGNITUDE` ekleyerek eşiği değiştir (örn. `4.5`).
-5. **Actions → Deprem bildirimi → Run workflow** ile çalıştığını kontrol et.
+5. **Actions → Deprem bildirimi → Run workflow** ekranında **test** kutusunu işaretleyip çalıştır:
+   bölgedeki son deprem "🧪 TEST" etiketiyle kanala gelir (kaydedilmez, eşiğe bakılmaz).
 
 Bildirilen depremler `quake_state.json`'a kaydedilir (aynı deprem iki kez gelmesin diye); bot bu
 dosyayı yeni bir deprem bildirdiğinde kendisi commit'ler.

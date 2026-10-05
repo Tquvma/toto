@@ -6,6 +6,8 @@ Gönderilen depremler quake_state.json'a yazılır, aynı deprem iki kez bildiri
 Ortam değişkenleri:
   DISCORD_WEBHOOK_URL  (zorunlu) Discord kanalının webhook adresi
   MIN_MAGNITUDE        (isteğe bağlı) Varsayılan 5.0
+  TEST                 (isteğe bağlı) "true" ise son deprem eşiğe bakılmadan "TEST" olarak
+                       gönderilir ve kaydedilmez (Discord bağlantısını denemek için)
   DRY_RUN              (isteğe bağlı) "1" ise gönderilmez, ekrana yazılır ve durum kaydedilmez
 """
 
@@ -87,10 +89,10 @@ def describe_location(point):
     return f"{genitive(city)} yaklaşık {km:.0f} km {direction(center, point)}"
 
 
-def fetch_quakes(min_mag, now):
+def fetch_quakes(min_mag, now, lookback=LOOKBACK):
     params = {
         "format": "json",
-        "start": (now - LOOKBACK).strftime("%Y-%m-%dT%H:%M:%S"),
+        "start": (now - lookback).strftime("%Y-%m-%dT%H:%M:%S"),
         "minmag": min_mag,
         "orderby": "time-asc",
         **REGION,
@@ -155,8 +157,27 @@ def save_state(state, now):
         f.write("\n")
 
 
+def send_test(webhook_url, now):
+    # Son 7 gündeki en yeni depremi (büyüklüğüne bakmadan) TEST etiketiyle gönderir
+    quakes = fetch_quakes(0, now, lookback=datetime.timedelta(days=7))
+    if not quakes:
+        sys.exit("Son 7 günde bölgede deprem bulunamadı.")
+    embed = build_embed(quakes[-1])
+    embed["title"] = "🧪 TEST – " + embed["title"]
+    embed["footer"]["text"] = "Bu bir test mesajıdır · " + embed["footer"]["text"]
+    if env("DRY_RUN") == "1":
+        print(json.dumps(embed, indent=2, ensure_ascii=False))
+        return
+    send_discord(webhook_url, [embed])
+    print("Test mesajı gönderildi.")
+
+
 def main():
     now = datetime.datetime.now(datetime.timezone.utc)
+    if env("TEST") == "true":
+        send_test(env("DISCORD_WEBHOOK_URL"), now)
+        return
+
     min_mag = float(env("MIN_MAGNITUDE", "5.0"))
     state = load_state()
     new = [q for q in fetch_quakes(min_mag, now) if q["id"] not in state["sent"]]
