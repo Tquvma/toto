@@ -1,0 +1,41 @@
+name: Deprem bildirimi
+
+on:
+  schedule:
+    # 5 dakikada bir (GitHub yoğunluğa göre geciktirebilir)
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+# Aynı anda iki çalıştırma aynı depremi bildirmesin
+concurrency:
+  group: quake-alerts
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Depremleri kontrol et
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          MIN_MAGNITUDE: ${{ vars.MIN_MAGNITUDE }}
+        run: python quake_bot.py
+      - name: Bildirilen depremleri kaydet
+        run: |
+          if [ -n "$(git status --porcelain quake_state.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add quake_state.json
+            git commit -m "Deprem bildirimi kaydı"
+            # Bu arada main'e başka bir commit geldiyse üstüne al
+            git pull --rebase
+            git push
+          fi
