@@ -156,22 +156,27 @@ def send_telegram(token, chat_id, text):
         raise SystemExit(f"Telegram hatası: {result}")
 
 
+def env(name, default=None):
+    # Secret'lar yapıştırılırken sona boşluk/satır sonu eklenebiliyor
+    return (os.environ.get(name) or "").strip() or default
+
+
 def main():
-    timezone = os.environ.get("TIMEZONE") or "Europe/Istanbul"
-    city = os.environ.get("CITY") or "Bursa"
-    lat = os.environ.get("LATITUDE")
-    lon = os.environ.get("LONGITUDE")
+    timezone = env("TIMEZONE", "Europe/Istanbul")
+    city = env("CITY", "Bursa")
+    lat = env("LATITUDE")
+    lon = env("LONGITUDE")
     if not (lat and lon):
         city, lat, lon = find_city(city)
 
     message = build_message(city, get_forecast(lat, lon, timezone))
 
-    if os.environ.get("DRY_RUN") == "1":
+    if env("DRY_RUN") == "1":
         print(message)
         return
 
-    token = os.environ.get("TELEGRAM_BOT_TOKEN")
-    chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+    token = env("TELEGRAM_BOT_TOKEN")
+    chat_id = env("TELEGRAM_CHAT_ID")
     if not (token and chat_id):
         sys.exit("TELEGRAM_BOT_TOKEN ve TELEGRAM_CHAT_ID tanımlı olmalı.")
     send_telegram(token, chat_id, message)
