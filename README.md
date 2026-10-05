@@ -1,6 +1,6 @@
 # toto
 
-Her sabah 06:10'da (Türkiye saati) günlük hava durumunu Telegram'a gönderen bot.
+Her sabah 06:10'da (Türkiye saati) Bursa ve Pattaya'nın günlük hava durumunu Telegram'a gönderen bot.
 Hava durumu verisi [Open-Meteo](https://open-meteo.com)'dan gelir; API anahtarı gerekmez.
 Zamanlamayı GitHub Actions yapar, sunucu gerekmez.
 
@@ -13,7 +13,8 @@ Zamanlamayı GitHub Actions yapar, sunucu gerekmez.
    Çıkan yanıttaki `"chat":{"id": ...}` değeri senin chat ID'ndir.
 3. **GitHub'a ekle:** Repo → **Settings → Secrets and variables → Actions**
    - *Secrets* sekmesine `TELEGRAM_BOT_TOKEN` ve `TELEGRAM_CHAT_ID` ekle.
-   - (İsteğe bağlı) *Variables* sekmesine `CITY` ekle, örn. `Ankara`. Varsayılan `Bursa`.
+   - (İsteğe bağlı) *Variables* sekmesine `CITY` ekle; birden fazla şehir için virgülle ayır,
+     örn. `Bursa, Pattaya, Ankara`. Varsayılan `Bursa, Pattaya`. Saatler her şehrin yerel saatidir.
 4. **Dene:** **Actions → Günlük hava durumu → Run workflow** ile hemen bir mesaj gönder.
 
 Workflow'un çalışması için bu dosyaların varsayılan dalda (`main`) olması gerekir.

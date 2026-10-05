@@ -3,9 +3,8 @@
 Ortam değişkenleri:
   TELEGRAM_BOT_TOKEN  (zorunlu) BotFather'dan alınan token
   TELEGRAM_CHAT_ID    (zorunlu) Mesajın gideceği sohbet ID'si
-  CITY                (isteğe bağlı) Şehir adı, varsayılan "Bursa"
-  LATITUDE/LONGITUDE  (isteğe bağlı) Verilirse şehir araması yapılmaz
-  TIMEZONE            (isteğe bağlı) Varsayılan "Europe/Istanbul"
+  CITY                (isteğe bağlı) Virgülle ayrılmış şehirler,
+                      varsayılan "Bursa, Pattaya"
   DRY_RUN             (isteğe bağlı) "1" ise mesaj gönderilmez, ekrana yazılır
 """
 
@@ -72,7 +71,8 @@ def find_city(name):
     if not results:
         raise SystemExit(f"Şehir bulunamadı: {name}")
     city = results[0]
-    return city["name"], city["latitude"], city["longitude"]
+    # Saatler her şehrin kendi yerel saatiyle gösterilir
+    return city["name"], city["latitude"], city["longitude"], city.get("timezone", "auto")
 
 
 def get_forecast(lat, lon, timezone):
@@ -118,15 +118,14 @@ def advice(daily):
     return tips
 
 
-def build_message(city, forecast):
+def city_report(city, forecast):
     current = forecast["current"]
     daily = forecast["daily"]
     emoji, text = describe(daily["weather_code"][0])
     now_emoji, now_text = describe(current["weather_code"])
 
     lines = [
-        f"🌅 Günaydın! {city} için bugünün hava durumu",
-        "",
+        f"📍 {city}",
         f"{emoji} {text}",
         f"🌡️ En düşük {daily['temperature_2m_min'][0]:.0f}°C / "
         f"en yüksek {daily['temperature_2m_max'][0]:.0f}°C",
@@ -137,10 +136,11 @@ def build_message(city, forecast):
         f"💨 Rüzgar en fazla {daily['wind_speed_10m_max'][0]:.0f} km/s",
         f"🌄 Gün doğumu {daily['sunrise'][0][-5:]}, gün batımı {daily['sunset'][0][-5:]}",
     ]
-    tips = advice(daily)
-    if tips:
-        lines += [""] + tips
-    return "\n".join(lines)
+    return "\n".join(lines + advice(daily))
+
+
+def build_message(reports):
+    return "\n\n".join(["🌅 Günaydın! Bugünün hava durumu"] + reports)
 
 
 def send_telegram(token, chat_id, text):
@@ -167,14 +167,13 @@ def env(name, default=None):
 
 
 def main():
-    timezone = env("TIMEZONE", "Europe/Istanbul")
-    city = env("CITY", "Bursa")
-    lat = env("LATITUDE")
-    lon = env("LONGITUDE")
-    if not (lat and lon):
-        city, lat, lon = find_city(city)
+    names = [n.strip() for n in env("CITY", "Bursa, Pattaya").split(",") if n.strip()]
+    reports = []
+    for name in names:
+        city, lat, lon, timezone = find_city(name)
+        reports.append(city_report(city, get_forecast(lat, lon, timezone)))
 
-    message = build_message(city, get_forecast(lat, lon, timezone))
+    message = build_message(reports)
 
     if env("DRY_RUN") == "1":
         print(message)
