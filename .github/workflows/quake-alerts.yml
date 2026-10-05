@@ -5,6 +5,11 @@ on:
     # 5 dakikada bir (GitHub yoğunluğa göre geciktirebilir)
     - cron: "*/5 * * * *"
   workflow_dispatch:
+    inputs:
+      test:
+        description: "Test mesajı gönder (son depremi TEST etiketiyle, kaydetmeden)"
+        type: boolean
+        default: false
 
 # Aynı anda iki çalıştırma aynı depremi bildirmesin
 concurrency:
@@ -27,6 +32,7 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           MIN_MAGNITUDE: ${{ vars.MIN_MAGNITUDE }}
+          TEST: ${{ inputs.test }}
         run: python quake_bot.py
       - name: Bildirilen depremleri kaydet
         run: |
