@@ -32,6 +32,22 @@ Gram altın ons fiyatından hesaplanır, kuyumcu fiyatından biraz farklı olabi
    Chat ID olarak mevcut `TELEGRAM_CHAT_ID` kullanılır.
 4. **Actions → Günlük kurlar → Run workflow** ile dene.
 
+## Deprem bildirimi (Discord)
+
+Türkiye ve yakın çevresinde (Ege, Kıbrıs, sınır bölgeleri) **5.0 ve üzeri** bir deprem olunca Discord
+kanalına bildirim gelir: büyüklük, derinlik, saat, en yakın il merkezine göre konum, Bursa'ya uzaklık
+ve harita bağlantısı. Veri [EMSC](https://www.seismicportal.eu)'den gelir; API anahtarı gerekmez.
+Kontrol 5 dakikada bir yapılır, GitHub yoğunluğa göre geciktirebilir; acil uyarı yerine geçmez.
+
+1. Discord'da kendi sunucunda bir kanal aç (örn. `#deprem`).
+2. Kanalın ⚙️ ayarları → **Integrations → Webhooks → New Webhook → Copy Webhook URL**.
+3. Repo → **Settings → Secrets and variables → Actions** → `DISCORD_WEBHOOK_URL` adıyla bu adresi ekle.
+4. (İsteğe bağlı) *Variables* sekmesine `MIN_MAGNITUDE` ekleyerek eşiği değiştir (örn. `4.5`).
+5. **Actions → Deprem bildirimi → Run workflow** ile çalıştığını kontrol et.
+
+Bildirilen depremler `quake_state.json`'a kaydedilir (aynı deprem iki kez gelmesin diye); bot bu
+dosyayı yeni bir deprem bildirdiğinde kendisi commit'ler.
+
 ## Notlar
 
 - GitHub zamanlanmış görevleri yoğunluğa göre birkaç dakika (bazen daha fazla) geç çalıştırabilir.
@@ -45,4 +61,5 @@ Gram altın ons fiyatından hesaplanır, kuyumcu fiyatından biraz farklı olabi
 ```bash
 DRY_RUN=1 CITY=İzmir python3 weather_bot.py   # mesajı göndermeden ekrana yazar
 DRY_RUN=1 python3 markets_bot.py
+DRY_RUN=1 MIN_MAGNITUDE=3 python3 quake_bot.py
 ```
