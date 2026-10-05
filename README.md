@@ -13,7 +13,7 @@ Zamanlamayı GitHub Actions yapar, sunucu gerekmez.
    Çıkan yanıttaki `"chat":{"id": ...}` değeri senin chat ID'ndir.
 3. **GitHub'a ekle:** Repo → **Settings → Secrets and variables → Actions**
    - *Secrets* sekmesine `TELEGRAM_BOT_TOKEN` ve `TELEGRAM_CHAT_ID` ekle.
-   - (İsteğe bağlı) *Variables* sekmesine `CITY` ekle, örn. `Ankara`. Varsayılan `İstanbul`.
+   - (İsteğe bağlı) *Variables* sekmesine `CITY` ekle, örn. `Ankara`. Varsayılan `Bursa`.
 4. **Dene:** **Actions → Günlük hava durumu → Run workflow** ile hemen bir mesaj gönder.
 
 Workflow'un çalışması için bu dosyaların varsayılan dalda (`main`) olması gerekir.

@@ -3,7 +3,7 @@
 Ortam değişkenleri:
   TELEGRAM_BOT_TOKEN  (zorunlu) BotFather'dan alınan token
   TELEGRAM_CHAT_ID    (zorunlu) Mesajın gideceği sohbet ID'si
-  CITY                (isteğe bağlı) Şehir adı, varsayılan "İstanbul"
+  CITY                (isteğe bağlı) Şehir adı, varsayılan "Bursa"
   LATITUDE/LONGITUDE  (isteğe bağlı) Verilirse şehir araması yapılmaz
   TIMEZONE            (isteğe bağlı) Varsayılan "Europe/Istanbul"
   DRY_RUN             (isteğe bağlı) "1" ise mesaj gönderilmez, ekrana yazılır
@@ -158,7 +158,7 @@ def send_telegram(token, chat_id, text):
 
 def main():
     timezone = os.environ.get("TIMEZONE") or "Europe/Istanbul"
-    city = os.environ.get("CITY") or "İstanbul"
+    city = os.environ.get("CITY") or "Bursa"
     lat = os.environ.get("LATITUDE")
     lon = os.environ.get("LONGITUDE")
     if not (lat and lon):
