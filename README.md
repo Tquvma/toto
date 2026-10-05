@@ -19,6 +19,19 @@ Zamanlamayı GitHub Actions yapar, sunucu gerekmez.
 
 Workflow'un çalışması için bu dosyaların varsayılan dalda (`main`) olması gerekir.
 
+## Kur botu
+
+Döviz ve altın kurları, hava durumu botundan bağımsız **ikinci bir bottan** her sabah 06:10'da gelir:
+dolar, euro, Tayland bahtı ve gram altın (TL), bir önceki güne göre değişimiyle.
+Veri [fawazahmed0/exchange-api](https://github.com/fawazahmed0/exchange-api)'den gelir; API anahtarı gerekmez.
+Gram altın ons fiyatından hesaplanır, kuyumcu fiyatından biraz farklı olabilir.
+
+1. @BotFather'a `/newbot` yazıp ikinci bir bot oluştur (örn. "Kur Botu") ve token'ı al.
+2. Yeni botu Telegram'da açıp **Başlat**'a bas.
+3. Repo → **Settings → Secrets and variables → Actions** → `MARKETS_BOT_TOKEN` adıyla token'ı ekle.
+   Chat ID olarak mevcut `TELEGRAM_CHAT_ID` kullanılır.
+4. **Actions → Günlük kurlar → Run workflow** ile dene.
+
 ## Notlar
 
 - GitHub zamanlanmış görevleri yoğunluğa göre birkaç dakika (bazen daha fazla) geç çalıştırabilir.
@@ -31,4 +44,5 @@ Workflow'un çalışması için bu dosyaların varsayılan dalda (`main`) olmas�
 
 ```bash
 DRY_RUN=1 CITY=İzmir python3 weather_bot.py   # mesajı göndermeden ekrana yazar
+DRY_RUN=1 python3 markets_bot.py
 ```
