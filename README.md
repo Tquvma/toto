@@ -19,6 +19,11 @@ Zamanlamayı GitHub Actions yapar, sunucu gerekmez.
 
 Workflow'un çalışması için bu dosyaların varsayılan dalda (`main`) olması gerekir.
 
+## `/hava` komutu
+
+Botuna `/hava` yazınca anında cevap vermesi için ayrı bir Cloudflare Worker kurulumu gerekir;
+adımlar [`worker/README.md`](worker/README.md)'de.
+
 ## Notlar
 
 - GitHub zamanlanmış görevleri yoğunluğa göre birkaç dakika (bazen daha fazla) geç çalıştırabilir.
