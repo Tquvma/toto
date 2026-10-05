@@ -150,8 +150,13 @@ def send_telegram(token, chat_id, text):
         data=body,
         headers={"Content-Type": "application/json"},
     )
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        result = json.load(resp)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            result = json.load(resp)
+    except urllib.error.HTTPError as e:
+        # Telegram hatanın nedenini yanıt gövdesinde açıklıyor
+        detail = e.read().decode(errors="replace")
+        raise SystemExit(f"Telegram hatası ({e.code}): {detail}")
     if not result.get("ok"):
         raise SystemExit(f"Telegram hatası: {result}")
 
