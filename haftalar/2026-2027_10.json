@@ -1,0 +1,342 @@
+{
+ "sezon": "2026/2027",
+ "hafta": 10,
+ "tur_id": 1537,
+ "kapanis": "2026-10-16 19:55",
+ "maclar": [
+  {
+   "no": 1,
+   "tarih": "2026-10-16 20:00",
+   "ev": "Arca Çorum FK",
+   "dep": "Çaykur Rizespor",
+   "lig": "Süper Lig 2026/2027 Sezonu",
+   "milli": false,
+   "sonuc": "1",
+   "skor": "2-1"
+  },
+  {
+   "no": 2,
+   "tarih": "2026-10-17 13:30",
+   "ev": "Erzurumspor FK",
+   "dep": "Eyüpspor",
+   "lig": "Süper Lig 2026/2027 Sezonu",
+   "milli": false,
+   "sonuc": "1",
+   "skor": "2-0"
+  },
+  {
+   "no": 3,
+   "tarih": "2026-10-17 16:00",
+   "ev": "Amed Sportif Faaliyetler",
+   "dep": "Tümosan Konyaspor",
+   "lig": "Süper Lig 2026/2027 Sezonu",
+   "milli": false,
+   "sonuc": "1",
+   "skor": "1-0"
+  },
+  {
+   "no": 4,
+   "tarih": "2026-10-17 16:00",
+   "ev": "Gençlerbirliği",
+   "dep": "Galatasaray",
+   "lig": "Süper Lig 2026/2027 Sezonu",
+   "milli": false,
+   "sonuc": "2",
+   "skor": "0-1"
+  },
+  {
+   "no": 5,
+   "tarih": "2026-10-17 19:00",
+   "ev": "Fenerbahçe",
+   "dep": "Corendon Alanyaspor",
+   "lig": "Süper Lig 2026/2027 Sezonu",
+   "milli": false,
+   "sonuc": "1",
+   "skor": "3-0"
+  },
+  {
+   "no": 6,
+   "tarih": "2026-10-18 13:30",
+   "ev": "Kasımpaşa",
+   "dep": "Samsunspor",
+   "lig": "Süper Lig 2026/2027 Sezonu",
+   "milli": false,
+   "nesine": {
+    "oran": [
+     2.22,
+     3.02,
+     2.46
+    ],
+    "olasilik": [
+     0.3791,
+     0.2787,
+     0.3422
+    ],
+    "marj": 0.1881,
+    "zaman": "2026-10-17 21:22"
+   },
+   "piyasa": [
+    0.3791,
+    0.2787,
+    0.3422
+   ],
+   "piyasa_kaynak": "Nesine",
+   "sonuc": "1",
+   "skor": "4-1"
+  },
+  {
+   "no": 7,
+   "tarih": "2026-10-18 16:00",
+   "ev": "Kocaelispor",
+   "dep": "Göztepe",
+   "lig": "Süper Lig 2026/2027 Sezonu",
+   "milli": false,
+   "nesine": {
+    "oran": [
+     2.57,
+     3.06,
+     2.13
+    ],
+    "olasilik": [
+     0.3283,
+     0.2757,
+     0.3961
+    ],
+    "marj": 0.1854,
+    "zaman": "2026-10-17 21:22"
+   },
+   "piyasa": [
+    0.3283,
+    0.2757,
+    0.3961
+   ],
+   "piyasa_kaynak": "Nesine",
+   "sonuc": "2",
+   "skor": "1-2"
+  },
+  {
+   "no": 8,
+   "tarih": "2026-10-18 19:00",
+   "ev": "İstanbul Başakşehir",
+   "dep": "Gaziantep FK",
+   "lig": "Süper Lig 2026/2027 Sezonu",
+   "milli": false,
+   "nesine": {
+    "oran": [
+     1.48,
+     3.66,
+     4.18
+    ],
+    "olasilik": [
+     0.5687,
+     0.23,
+     0.2014
+    ],
+    "marj": 0.1881,
+    "zaman": "2026-10-17 21:22"
+   },
+   "piyasa": [
+    0.5687,
+    0.23,
+    0.2014
+   ],
+   "piyasa_kaynak": "Nesine",
+   "sonuc": "1",
+   "skor": "2-1"
+  },
+  {
+   "no": 9,
+   "tarih": "2026-10-19 20:00",
+   "ev": "Trabzonspor",
+   "dep": "Beşiktaş",
+   "lig": "Süper Lig 2026/2027 Sezonu",
+   "milli": false,
+   "nesine": {
+    "oran": [
+     2.44,
+     3.31,
+     2.11
+    ],
+    "olasilik": [
+     0.3456,
+     0.2548,
+     0.3996
+    ],
+    "marj": 0.1859,
+    "zaman": "2026-10-17 21:22"
+   },
+   "piyasa": [
+    0.3456,
+    0.2548,
+    0.3996
+   ],
+   "piyasa_kaynak": "Nesine",
+   "sonuc": "1",
+   "skor": "2-0"
+  },
+  {
+   "no": 10,
+   "tarih": "2026-10-17 14:30",
+   "ev": "Everton",
+   "dep": "Chelsea",
+   "lig": "Premier Lig 2026/2027 Sezonu",
+   "milli": false,
+   "sonuc": "2",
+   "skor": "0-2"
+  },
+  {
+   "no": 11,
+   "tarih": "2026-10-17 17:00",
+   "ev": "Brentford",
+   "dep": "Liverpool",
+   "lig": "Premier Lig 2026/2027 Sezonu",
+   "milli": false,
+   "sonuc": "2",
+   "skor": "1-2"
+  },
+  {
+   "no": 12,
+   "tarih": "2026-10-17 19:30",
+   "ev": "Real Betis",
+   "dep": "Barcelona",
+   "lig": "La Liga 2026/2027 Sezonu",
+   "milli": false,
+   "sonuc": "2",
+   "skor": "2-5",
+   "sonuc_kaynak": "ESPN, 17 Eki 21:40 (90+2', resmi API henüz işlemedi)"
+  },
+  {
+   "no": 13,
+   "tarih": "2026-10-18 22:00",
+   "ev": "Real Madrid",
+   "dep": "Sevilla",
+   "lig": "La Liga 2026/2027 Sezonu",
+   "milli": false,
+   "nesine": {
+    "oran": [
+     1.09,
+     6.06,
+     9.59
+    ],
+    "olasilik": [
+     0.7731,
+     0.1391,
+     0.0879
+    ],
+    "marj": 0.1867,
+    "zaman": "2026-10-17 21:22"
+   },
+   "piyasa": [
+    0.7731,
+    0.1391,
+    0.0879
+   ],
+   "piyasa_kaynak": "Nesine",
+   "sonuc": "1",
+   "skor": "4-1"
+  },
+  {
+   "no": 14,
+   "tarih": "2026-10-18 19:00",
+   "ev": "Milan",
+   "dep": "Atalanta",
+   "lig": "Serie A 2026/2027 Sezonu",
+   "milli": false,
+   "nesine": {
+    "oran": [
+     1.6,
+     3.37,
+     3.8
+    ],
+    "olasilik": [
+     0.5275,
+     0.2504,
+     0.2221
+    ],
+    "marj": 0.1849,
+    "zaman": "2026-10-17 21:22"
+   },
+   "piyasa": [
+    0.5275,
+    0.2504,
+    0.2221
+   ],
+   "piyasa_kaynak": "Nesine",
+   "sonuc": "1",
+   "skor": "3-2"
+  },
+  {
+   "no": 15,
+   "tarih": "2026-10-18 21:45",
+   "ev": "Juventus",
+   "dep": "Lazio",
+   "lig": "Serie A 2026/2027 Sezonu",
+   "milli": false,
+   "nesine": {
+    "oran": [
+     1.5,
+     3.39,
+     4.45
+    ],
+    "olasilik": [
+     0.5619,
+     0.2486,
+     0.1894
+    ],
+    "marj": 0.1864,
+    "zaman": "2026-10-17 21:22"
+   },
+   "piyasa": [
+    0.5619,
+    0.2486,
+    0.1894
+   ],
+   "piyasa_kaynak": "Nesine",
+   "sonuc": "2",
+   "skor": "0-3"
+  }
+ ],
+ "kuponlar": [
+  {
+   "ad": "K10 - kullanicinin kuponu (72 kolon, 720 TL; analizsiz, OYNANDI)",
+   "secimler": [
+    "10",
+    "1",
+    "1",
+    "2",
+    "1",
+    "1",
+    "1",
+    "10",
+    "102",
+    "02",
+    "2",
+    "2",
+    "1",
+    "1",
+    "102"
+   ]
+  }
+ ],
+ "oynanan_kupon": {
+  "secimler": [
+   "10",
+   "1",
+   "1",
+   "2",
+   "1",
+   "1",
+   "1",
+   "10",
+   "102",
+   "02",
+   "2",
+   "2",
+   "1",
+   "1",
+   "102"
+  ],
+  "kolon": 72,
+  "tutar_tl": 720
+ }
+}
