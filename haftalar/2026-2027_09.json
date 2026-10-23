@@ -1,0 +1,1686 @@
+{
+ "sezon": "2026/2027",
+ "hafta": 9,
+ "tur_id": 1536,
+ "kapanis": "2026-10-09 19:55",
+ "maclar": [
+  {
+   "no": 1,
+   "tarih": "2026-10-09 20:00",
+   "ev": "Galatasaray",
+   "dep": "Kasımpaşa",
+   "lig": "Süper Lig 7. hafta",
+   "milli": false,
+   "halk": [
+    0.75,
+    0.19,
+    0.06
+   ],
+   "halk_zaman": "2026-10-09 16:49",
+   "nesine": {
+    "oran": [
+     1.14,
+     5.55,
+     8.55
+    ],
+    "olasilik": [
+     0.747,
+     0.1534,
+     0.0996
+    ],
+    "marj": 0.1743,
+    "zaman": "2026-10-09 17:49"
+   },
+   "piyasa": [
+    0.7677,
+    0.1474,
+    0.0849
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/galatasaray-vs-kas-mpa-a-2026-10-09",
+    "zaman": "2026-10-09 17:49",
+    "bet365": {
+     "oran": [
+      1.28,
+      5.25,
+      9.0
+     ],
+     "olasilik": [
+      0.7215,
+      0.1759,
+      0.1026
+     ]
+    },
+    "Pinnacle": {
+     "oran": [
+      1.25,
+      6.51,
+      11.31
+     ],
+     "olasilik": [
+      0.7677,
+      0.1474,
+      0.0849
+     ]
+    }
+   },
+   "final": [
+    0.76,
+    0.15,
+    0.09
+   ],
+   "final_8ekim": [
+    0.74,
+    0.16,
+    0.1
+   ],
+   "sonuc": "1",
+   "skor": "3-1"
+  },
+  {
+   "no": 2,
+   "tarih": "2026-10-10 13:30",
+   "ev": "Gençlerbirliği",
+   "dep": "Amed Sportif Faaliyetler",
+   "lig": "Süper Lig 7. hafta",
+   "milli": false,
+   "halk": [
+    0.24,
+    0.3,
+    0.46
+   ],
+   "halk_zaman": "2026-10-09 16:49",
+   "nesine": {
+    "oran": [
+     2.8,
+     3.19,
+     1.98
+    ],
+    "olasilik": [
+     0.3038,
+     0.2666,
+     0.4296
+    ],
+    "marj": 0.1757,
+    "zaman": "2026-10-09 17:49"
+   },
+   "piyasa": [
+    0.3053,
+    0.2635,
+    0.4312
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/gen-lerbirli-i-vs-amed-sk-2026-10-10",
+    "zaman": "2026-10-09 17:49",
+    "bet365": {
+     "oran": [
+      3.1,
+      3.3,
+      2.15
+     ],
+     "olasilik": [
+      0.2957,
+      0.2778,
+      0.4264
+     ]
+    },
+    "Pinnacle": {
+     "oran": [
+      3.15,
+      3.65,
+      2.23
+     ],
+     "olasilik": [
+      0.3053,
+      0.2635,
+      0.4312
+     ]
+    }
+   },
+   "final": [
+    0.31,
+    0.26,
+    0.43
+   ],
+   "final_onceki": [
+    0.37,
+    0.27,
+    0.36
+   ],
+   "final_not": "9 Eki 16:40: Pinnacle 30.5-26.4-43.1, Nesine 30.4-26.7-43.0, bet365 29.6-27.8-42.6 -> Amed'e kayis devam",
+   "final_zaman": "2026-10-09 16:40",
+   "final_8ekim": [
+    0.36,
+    0.27,
+    0.37
+   ],
+   "final_1630": [
+    0.33,
+    0.26,
+    0.41
+   ],
+   "sonuc": "0",
+   "skor": "2-2"
+  },
+  {
+   "no": 3,
+   "tarih": "2026-10-10 16:00",
+   "ev": "Corendon Alanyaspor",
+   "dep": "Erzurumspor FK",
+   "lig": "Süper Lig 7. hafta",
+   "milli": false,
+   "halk": [
+    0.64,
+    0.26,
+    0.1
+   ],
+   "halk_zaman": "2026-10-09 16:49",
+   "nesine": {
+    "oran": [
+     1.78,
+     2.98,
+     3.58
+    ],
+    "olasilik": [
+     0.4774,
+     0.2852,
+     0.2374
+    ],
+    "marj": 0.1767,
+    "zaman": "2026-10-09 17:49"
+   },
+   "piyasa": [
+    0.4869,
+    0.2826,
+    0.2305
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/alanyaspor-vs-erzurumspor-fk-2026-10-10",
+    "zaman": "2026-10-09 17:49",
+    "bet365": {
+     "oran": [
+      1.9,
+      3.3,
+      3.9
+     ],
+     "olasilik": [
+      0.4847,
+      0.2791,
+      0.2362
+     ]
+    },
+    "Pinnacle": {
+     "oran": [
+      1.95,
+      3.36,
+      4.12
+     ],
+     "olasilik": [
+      0.4869,
+      0.2826,
+      0.2305
+     ]
+    }
+   },
+   "final": [
+    0.48,
+    0.29,
+    0.23
+   ],
+   "final_8ekim": [
+    0.47,
+    0.29,
+    0.24
+   ],
+   "final_1630": [
+    0.47,
+    0.29,
+    0.24
+   ],
+   "final_not": "9 Eki 16:40: Pinnacle 48.7-28.3-23.1 (onceki 46.8-28.8-24.4), Nesine 47.7-28.5-23.7",
+   "final_zaman": "2026-10-09 16:40",
+   "sonuc": "0",
+   "skor": "0-0"
+  },
+  {
+   "no": 4,
+   "tarih": "2026-10-10 16:00",
+   "ev": "Samsunspor",
+   "dep": "Trabzonspor",
+   "lig": "Süper Lig 7. hafta",
+   "milli": false,
+   "halk": [
+    0.14,
+    0.24,
+    0.62
+   ],
+   "halk_zaman": "2026-10-09 16:49",
+   "nesine": {
+    "oran": [
+     3.21,
+     3.32,
+     1.78
+    ],
+    "olasilik": [
+     0.2652,
+     0.2564,
+     0.4783
+    ],
+    "marj": 0.1745,
+    "zaman": "2026-10-09 17:49"
+   },
+   "piyasa": [
+    0.2576,
+    0.2598,
+    0.4826
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/samsunspor-vs-trabzonspor-2026-10-10",
+    "zaman": "2026-10-09 17:49",
+    "Pinnacle": {
+     "oran": [
+      3.69,
+      3.66,
+      1.97
+     ],
+     "olasilik": [
+      0.2576,
+      0.2598,
+      0.4826
+     ]
+    }
+   },
+   "final": [
+    0.26,
+    0.26,
+    0.48
+   ],
+   "final_8ekim": [
+    0.26,
+    0.26,
+    0.48
+   ],
+   "sonuc": "2",
+   "skor": "0-3"
+  },
+  {
+   "no": 5,
+   "tarih": "2026-10-10 19:00",
+   "ev": "Çaykur Rizespor",
+   "dep": "Fenerbahçe",
+   "lig": "Süper Lig 7. hafta",
+   "milli": false,
+   "halk": [
+    0.11,
+    0.17,
+    0.72
+   ],
+   "halk_zaman": "2026-10-09 16:49",
+   "nesine": {
+    "oran": [
+     4.04,
+     3.6,
+     1.53
+    ],
+    "olasilik": [
+     0.21,
+     0.2356,
+     0.5544
+    ],
+    "marj": 0.1789,
+    "zaman": "2026-10-09 17:49"
+   },
+   "piyasa": [
+    0.2114,
+    0.2315,
+    0.5571
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/rizespor-vs-fenerbah-e-2026-10-10",
+    "zaman": "2026-10-09 17:49",
+    "bet365": {
+     "oran": [
+      4.5,
+      3.75,
+      1.66
+     ],
+     "olasilik": [
+      0.2036,
+      0.2444,
+      0.552
+     ]
+    },
+    "Pinnacle": {
+     "oran": [
+      4.48,
+      4.09,
+      1.7
+     ],
+     "olasilik": [
+      0.2114,
+      0.2315,
+      0.5571
+     ]
+    }
+   },
+   "final": [
+    0.21,
+    0.23,
+    0.56
+   ],
+   "final_8ekim": [
+    0.21,
+    0.23,
+    0.56
+   ],
+   "sonuc": "2",
+   "skor": "0-3"
+  },
+  {
+   "no": 6,
+   "tarih": "2026-10-11 13:30",
+   "ev": "Tümosan Konyaspor",
+   "dep": "İstanbul Başakşehir",
+   "lig": "Süper Lig 7. hafta",
+   "milli": false,
+   "halk": [
+    0.35,
+    0.36,
+    0.29
+   ],
+   "halk_zaman": "2026-10-09 16:49",
+   "nesine": {
+    "oran": [
+     2.36,
+     3.1,
+     2.32
+    ],
+    "olasilik": [
+     0.3599,
+     0.274,
+     0.3661
+    ],
+    "marj": 0.1773,
+    "zaman": "2026-10-09 17:49"
+   },
+   "piyasa": [
+    0.3481,
+    0.2764,
+    0.3755
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/konyaspor-vs-stanbul-ba-ak-ehir-2026-10-11",
+    "zaman": "2026-10-09 17:49",
+    "Pinnacle": {
+     "oran": [
+      2.74,
+      3.45,
+      2.54
+     ],
+     "olasilik": [
+      0.3481,
+      0.2764,
+      0.3755
+     ]
+    }
+   },
+   "final": [
+    0.35,
+    0.28,
+    0.37
+   ],
+   "final_onceki": [
+    0.36,
+    0.28,
+    0.36
+   ],
+   "final_not": "Pinnacle 35/28/38'e kaydi (haber degil, piyasa hareketi)",
+   "final_zaman": "2026-10-08 18:30",
+   "final_8ekim": [
+    0.35,
+    0.28,
+    0.37
+   ],
+   "sonuc": "0",
+   "skor": "0-0"
+  },
+  {
+   "no": 7,
+   "tarih": "2026-10-11 16:00",
+   "ev": "Gaziantep FK",
+   "dep": "Arca Çorum FK",
+   "lig": "Süper Lig 7. hafta",
+   "milli": false,
+   "halk": [
+    0.39,
+    0.31,
+    0.3
+   ],
+   "halk_zaman": "2026-10-09 16:49",
+   "nesine": {
+    "oran": [
+     2.36,
+     3.04,
+     2.35
+    ],
+    "olasilik": [
+     0.3596,
+     0.2792,
+     0.3612
+    ],
+    "marj": 0.1782,
+    "zaman": "2026-10-09 17:49"
+   },
+   "piyasa": [
+    0.3635,
+    0.2851,
+    0.3514
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/gaziantep-f-k-vs-orum-fk-2026-10-11",
+    "zaman": "2026-10-09 17:49",
+    "Pinnacle": {
+     "oran": [
+      2.62,
+      3.34,
+      2.71
+     ],
+     "olasilik": [
+      0.3635,
+      0.2851,
+      0.3514
+     ]
+    }
+   },
+   "final": [
+    0.36,
+    0.29,
+    0.35
+   ],
+   "final_8ekim": [
+    0.35,
+    0.29,
+    0.36
+   ],
+   "sonuc": "2",
+   "skor": "0-3"
+  },
+  {
+   "no": 8,
+   "tarih": "2026-10-11 19:00",
+   "ev": "Beşiktaş",
+   "dep": "Kocaelispor",
+   "lig": "Süper Lig 7. hafta",
+   "milli": false,
+   "halk": [
+    0.86,
+    0.11,
+    0.03
+   ],
+   "halk_zaman": "2026-10-09 16:49",
+   "nesine": {
+    "oran": [
+     1.14,
+     5.19,
+     9.45
+    ],
+    "olasilik": [
+     0.7461,
+     0.1639,
+     0.09
+    ],
+    "marj": 0.1757,
+    "zaman": "2026-10-09 17:49"
+   },
+   "piyasa": [
+    0.7306,
+    0.1742,
+    0.0952
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/be-ikta-vs-kocaelispor-2026-10-11",
+    "zaman": "2026-10-09 17:49",
+    "bet365": {
+     "oran": [
+      1.27,
+      4.75,
+      11.0
+     ],
+     "olasilik": [
+      0.7232,
+      0.1933,
+      0.0835
+     ]
+    },
+    "Pinnacle": {
+     "oran": [
+      1.29,
+      5.41,
+      9.9
+     ],
+     "olasilik": [
+      0.7306,
+      0.1742,
+      0.0952
+     ]
+    }
+   },
+   "final": [
+    0.73,
+    0.17,
+    0.1
+   ],
+   "final_8ekim": [
+    0.74,
+    0.17,
+    0.09
+   ],
+   "sonuc": "1",
+   "skor": "2-1"
+  },
+  {
+   "no": 9,
+   "tarih": "2026-10-12 20:00",
+   "ev": "Eyüpspor",
+   "dep": "Göztepe",
+   "lig": "Süper Lig 7. hafta",
+   "milli": false,
+   "halk": [
+    0.16,
+    0.26,
+    0.58
+   ],
+   "halk_zaman": "2026-10-09 16:49",
+   "nesine": {
+    "oran": [
+     3.38,
+     3.28,
+     1.73
+    ],
+    "olasilik": [
+     0.251,
+     0.2586,
+     0.4904
+    ],
+    "marj": 0.1788,
+    "zaman": "2026-10-09 17:49"
+   },
+   "piyasa": [
+    0.2427,
+    0.2524,
+    0.5048
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/ey-pspor-vs-g-ztepe-2026-10-12",
+    "zaman": "2026-10-09 17:49",
+    "Pinnacle": {
+     "oran": [
+      3.91,
+      3.76,
+      1.88
+     ],
+     "olasilik": [
+      0.2427,
+      0.2524,
+      0.5048
+     ]
+    }
+   },
+   "final": [
+    0.24,
+    0.26,
+    0.5
+   ],
+   "final_8ekim": [
+    0.24,
+    0.26,
+    0.5
+   ],
+   "sonuc": "2",
+   "skor": "0-4"
+  },
+  {
+   "no": 10,
+   "tarih": "2026-10-10 16:30",
+   "ev": "Augsburg",
+   "dep": "Bayern Münih",
+   "lig": "Bundesliga",
+   "milli": false,
+   "halk": [
+    0.09,
+    0.13,
+    0.78
+   ],
+   "halk_zaman": "2026-10-09 16:49",
+   "nesine": {
+    "oran": [
+     10.9,
+     8.2,
+     1
+    ],
+    "olasilik": [
+     0.0756,
+     0.1005,
+     0.8239
+    ],
+    "marj": 0.2137,
+    "zaman": "2026-10-09 17:49"
+   },
+   "piyasa": [
+    0.0756,
+    0.1005,
+    0.8239
+   ],
+   "piyasa_kaynak": "Nesine",
+   "final": [
+    0.09,
+    0.11,
+    0.8
+   ],
+   "final_onceki": [
+    0.1,
+    0.13,
+    0.77
+   ],
+   "final_not": "Pinnacle (statsbet, dogrulayici) 9/10/81, Nesine 8/11/81: piyasaya hizalandi",
+   "final_zaman": "2026-10-08 18:30",
+   "final_8ekim": [
+    0.09,
+    0.11,
+    0.8
+   ],
+   "sonuc": "0",
+   "skor": "2-2"
+  },
+  {
+   "no": 11,
+   "tarih": "2026-10-10 19:30",
+   "ev": "RB Leipzig",
+   "dep": "Eintracht Frankfurt",
+   "lig": "Bundesliga",
+   "milli": false,
+   "halk": [
+    0.58,
+    0.25,
+    0.17
+   ],
+   "halk_zaman": "2026-10-09 16:49",
+   "nesine": {
+    "oran": [
+     1.4,
+     4.31,
+     4.3
+    ],
+    "olasilik": [
+     0.6059,
+     0.1968,
+     0.1973
+    ],
+    "marj": 0.1789,
+    "zaman": "2026-10-09 17:49"
+   },
+   "piyasa": [
+    0.6041,
+    0.1949,
+    0.201
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/rb-leipzig-vs-eintracht-frankfurt-2026-10-10",
+    "zaman": "2026-10-09 17:49",
+    "bet365": {
+     "oran": [
+      1.57,
+      4.75,
+      5.0
+     ],
+     "olasilik": [
+      0.6081,
+      0.201,
+      0.1909
+     ]
+    },
+    "Pinnacle": {
+     "oran": [
+      1.6,
+      4.96,
+      4.81
+     ],
+     "olasilik": [
+      0.6041,
+      0.1949,
+      0.201
+     ]
+    }
+   },
+   "final": [
+    0.6,
+    0.2,
+    0.2
+   ],
+   "final_8ekim": [
+    0.61,
+    0.2,
+    0.19
+   ],
+   "sonuc": "1",
+   "skor": "6-0"
+  },
+  {
+   "no": 12,
+   "tarih": "2026-10-10 19:30",
+   "ev": "Manchester United",
+   "dep": "Tottenham Hotspur",
+   "lig": "Premier Lig",
+   "milli": false,
+   "halk": [
+    0.57,
+    0.25,
+    0.18
+   ],
+   "halk_zaman": "2026-10-09 16:49",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/manchester-united-vs-tottenham-hotspur-2026-10-10",
+    "zaman": "2026-10-09 17:49",
+    "bet365": {
+     "oran": [
+      1.7,
+      4.2,
+      4.5
+     ],
+     "olasilik": [
+      0.561,
+      0.2271,
+      0.2119
+     ]
+    },
+    "Pinnacle": {
+     "oran": [
+      1.74,
+      4.3,
+      4.37
+     ],
+     "olasilik": [
+      0.5547,
+      0.2245,
+      0.2209
+     ]
+    }
+   },
+   "piyasa": [
+    0.5547,
+    0.2245,
+    0.2209
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "final": [
+    0.55,
+    0.22,
+    0.23
+   ],
+   "final_8ekim": [
+    0.56,
+    0.22,
+    0.22
+   ],
+   "sonuc": "0",
+   "skor": "1-1"
+  },
+  {
+   "no": 13,
+   "tarih": "2026-10-11 18:30",
+   "ev": "Liverpool",
+   "dep": "Manchester City",
+   "lig": "Premier Lig",
+   "milli": false,
+   "halk": [
+    0.35,
+    0.3,
+    0.35
+   ],
+   "halk_zaman": "2026-10-09 16:49",
+   "nesine": {
+    "oran": [
+     2.65,
+     3.31,
+     2.01
+    ],
+    "olasilik": [
+     0.3206,
+     0.2567,
+     0.4227
+    ],
+    "marj": 0.177,
+    "zaman": "2026-10-09 17:49"
+   },
+   "piyasa": [
+    0.353,
+    0.2586,
+    0.3884
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/liverpool-vs-manchester-city-2026-10-11",
+    "zaman": "2026-10-09 17:49",
+    "Pinnacle": {
+     "oran": [
+      2.74,
+      3.74,
+      2.49
+     ],
+     "olasilik": [
+      0.353,
+      0.2586,
+      0.3884
+     ]
+    }
+   },
+   "final": [
+    0.34,
+    0.26,
+    0.4
+   ],
+   "final_8ekim": [
+    0.36,
+    0.25,
+    0.39
+   ],
+   "sonuc": "2",
+   "skor": "0-3"
+  },
+  {
+   "no": 14,
+   "tarih": "2026-10-10 22:00",
+   "ev": "Real Madrid",
+   "dep": "Villarreal",
+   "lig": "La Liga",
+   "milli": false,
+   "halk": [
+    0.81,
+    0.14,
+    0.05
+   ],
+   "halk_zaman": "2026-10-09 16:49",
+   "nesine": {
+    "oran": [
+     1.23,
+     5.18,
+     5.8
+    ],
+    "olasilik": [
+     0.6899,
+     0.1638,
+     0.1463
+    ],
+    "marj": 0.1785,
+    "zaman": "2026-10-09 17:49"
+   },
+   "piyasa": [
+    0.7019,
+    0.1605,
+    0.1376
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/real-madrid-vs-villarreal-2026-10-10",
+    "zaman": "2026-10-09 17:49",
+    "bet365": {
+     "oran": [
+      1.36,
+      5.75,
+      7.0
+     ],
+     "olasilik": [
+      0.6989,
+      0.1653,
+      0.1358
+     ]
+    },
+    "Pinnacle": {
+     "oran": [
+      1.37,
+      5.99,
+      6.99
+     ],
+     "olasilik": [
+      0.7019,
+      0.1605,
+      0.1376
+     ]
+    }
+   },
+   "final": [
+    0.7,
+    0.16,
+    0.14
+   ],
+   "final_8ekim": [
+    0.71,
+    0.16,
+    0.13
+   ],
+   "sonuc": "1",
+   "skor": "1-0"
+  },
+  {
+   "no": 15,
+   "tarih": "2026-10-11 13:30",
+   "ev": "Como",
+   "dep": "Roma",
+   "lig": "Serie A",
+   "milli": false,
+   "halk": [
+    0.31,
+    0.32,
+    0.37
+   ],
+   "halk_zaman": "2026-10-09 16:49",
+   "nesine": {
+    "oran": [
+     2.32,
+     3.19,
+     2.32
+    ],
+    "olasilik": [
+     0.3667,
+     0.2667,
+     0.3667
+    ],
+    "marj": 0.1755,
+    "zaman": "2026-10-09 17:49"
+   },
+   "piyasa": [
+    0.3636,
+    0.2687,
+    0.3677
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/como-vs-roma-2026-10-11",
+    "zaman": "2026-10-09 17:49",
+    "bet365": {
+     "oran": [
+      2.6,
+      3.5,
+      2.6
+     ],
+     "olasilik": [
+      0.3646,
+      0.2708,
+      0.3646
+     ]
+    },
+    "Pinnacle": {
+     "oran": [
+      2.66,
+      3.6,
+      2.63
+     ],
+     "olasilik": [
+      0.3636,
+      0.2687,
+      0.3677
+     ]
+    }
+   },
+   "final": [
+    0.36,
+    0.27,
+    0.37
+   ],
+   "final_8ekim": [
+    0.38,
+    0.27,
+    0.35
+   ],
+   "sonuc": "0",
+   "skor": "0-0"
+  }
+ ],
+ "kuponlar": [
+  {
+   "ad": "N - 54 kolon 540 TL 15 maks (OYNANDI)",
+   "secimler": [
+    "1",
+    "2",
+    "1",
+    "2",
+    "2",
+    "102",
+    "102",
+    "1",
+    "2",
+    "2",
+    "1",
+    "1",
+    "12",
+    "1",
+    "102"
+   ]
+  },
+  {
+   "ad": "S2 - 8 kolon 80 TL buyuk surpriz (Erzurum + Samsun; OYNANDI)",
+   "secimler": [
+    "1",
+    "2",
+    "2",
+    "1",
+    "12",
+    "2",
+    "2",
+    "1",
+    "12",
+    "2",
+    "1",
+    "1",
+    "2",
+    "1",
+    "12"
+   ]
+  },
+  {
+   "ad": "S1 - 8 kolon 80 TL orta surpriz (Genclerbirligi; oneri)",
+   "secimler": [
+    "1",
+    "1",
+    "12",
+    "2",
+    "12",
+    "2",
+    "2",
+    "1",
+    "2",
+    "2",
+    "1",
+    "1",
+    "2",
+    "1",
+    "12"
+   ]
+  },
+  {
+   "ad": "T4 - 4 kolon 40 TL en ucuz surpriz (Erzurum; oneri)",
+   "secimler": [
+    "1",
+    "2",
+    "2",
+    "12",
+    "12",
+    "2",
+    "2",
+    "1",
+    "2",
+    "2",
+    "1",
+    "1",
+    "2",
+    "1",
+    "1"
+   ]
+  },
+  {
+   "ad": "N2 - 54 kolon 540 TL deger alternatifi (15 %0,17, getiri ~%46)",
+   "secimler": [
+    "1",
+    "2",
+    "102",
+    "2",
+    "2",
+    "102",
+    "102",
+    "1",
+    "2",
+    "2",
+    "1",
+    "1",
+    "2",
+    "1",
+    "12"
+   ]
+  },
+  {
+   "ad": "J1 - 1.458 kolon (J, oynanmiyor; 1. bileti)",
+   "secimler": [
+    "1",
+    "12",
+    "102",
+    "102",
+    "2",
+    "102",
+    "102",
+    "1",
+    "2",
+    "2",
+    "1",
+    "1",
+    "102",
+    "1",
+    "102"
+   ],
+   "coklu": "J"
+  },
+  {
+   "ad": "J2 - 243 kolon (J, oynanmiyor; 2. bileti)",
+   "secimler": [
+    "1",
+    "0",
+    "1",
+    "102",
+    "2",
+    "102",
+    "102",
+    "1",
+    "2",
+    "2",
+    "1",
+    "1",
+    "102",
+    "1",
+    "102"
+   ],
+   "coklu": "J"
+  },
+  {
+   "ad": "J3 - 432 kolon (J, oynanmiyor; 3. bileti)",
+   "secimler": [
+    "1",
+    "102",
+    "102",
+    "2",
+    "2",
+    "12",
+    "102",
+    "1",
+    "10",
+    "2",
+    "1",
+    "1",
+    "12",
+    "1",
+    "12"
+   ],
+   "coklu": "J"
+  },
+  {
+   "ad": "I - 2.187 kolon 21.870 TL 15 maks tek bilet (taban; yerini J aldi)",
+   "secimler": [
+    "1",
+    "102",
+    "102",
+    "102",
+    "2",
+    "102",
+    "102",
+    "1",
+    "2",
+    "2",
+    "1",
+    "1",
+    "102",
+    "1",
+    "102"
+   ]
+  },
+  {
+   "ad": "D - 2.187 kolon 21.870 TL dengeli alternatif (15 %2,05, getiri ~%98)",
+   "secimler": [
+    "1",
+    "102",
+    "102",
+    "102",
+    "102",
+    "102",
+    "102",
+    "1",
+    "2",
+    "2",
+    "1",
+    "1",
+    "2",
+    "1",
+    "102"
+   ]
+  },
+  {
+   "ad": "L - 144 kolon 1.440 TL kazanc odakli (onceki plan, 9 Eki aksam I ile degisti)",
+   "secimler": [
+    "1",
+    "1",
+    "12",
+    "102",
+    "2",
+    "12",
+    "12",
+    "1",
+    "2",
+    "2",
+    "1",
+    "1",
+    "12",
+    "1",
+    "102"
+   ]
+  },
+  {
+   "ad": "M - 144 kolon 1.440 TL isabet agirlikli alternatif",
+   "secimler": [
+    "1",
+    "12",
+    "10",
+    "102",
+    "2",
+    "12",
+    "102",
+    "1",
+    "2",
+    "2",
+    "1",
+    "1",
+    "12",
+    "1",
+    "1"
+   ]
+  },
+  {
+   "ad": "B - 1.944 kolon 19.440 TL kazanc odakli (oneri, oynanmiyor)",
+   "secimler": [
+    "1",
+    "102",
+    "102",
+    "102",
+    "102",
+    "12",
+    "102",
+    "1",
+    "2",
+    "2",
+    "1",
+    "1",
+    "12",
+    "1",
+    "12"
+   ]
+  },
+  {
+   "ad": "K - 108 kolon 1.080 TL kucuk butce (onceki secim, L ile degisti)",
+   "secimler": [
+    "1",
+    "1",
+    "102",
+    "2",
+    "2",
+    "12",
+    "102",
+    "1",
+    "2",
+    "2",
+    "1",
+    "1",
+    "12",
+    "1",
+    "102"
+   ]
+  }
+ ],
+ "havuz_tahmini": 110000000.0,
+ "onerilen_kupon": "N - 54 kolon 540 TL 15 maks (OYNANDI)",
+ "oynanan_kupon": "N - 54 kolon 540 TL 15 maks (OYNANDI)",
+ "kazanc_modeli": {
+  "havuz_TL": 110000000.0,
+  "kolon_sayisi": 22448979.591836732,
+  "alfa": 1.15,
+  "devir_TL": 0,
+  "halk_kaynak": "Nesine % Tercih 9 Ekim 16:30"
+ },
+ "durum": "9 Eki: kullanici N (54 kolon, 540 TL) ve S2 (8 kolon, 80 TL) oynadi, toplam 620 TL. Hafta 12 Eki gecesi (Eyup-Goztepe) biter.",
+ "son_kontrol_9ekim": {
+  "zaman": "2026-10-09 16:30",
+  "karar": "L degismedi",
+  "L": {
+   "p13": 0.099,
+   "getiri": "~%90-95 (4 tohum %86-105)",
+   "kar_olasiligi": 0.091
+  },
+  "alternatif_L2": {
+   "secimler": [
+    "1",
+    "12",
+    "12",
+    "102",
+    "2",
+    "12",
+    "12",
+    "1",
+    "2",
+    "2",
+    "1",
+    "1",
+    "2",
+    "1",
+    "102"
+   ],
+   "p13": 0.109,
+   "getiri": "~%86 (75-98)",
+   "kar_olasiligi": 0.095
+  },
+  "haber": [
+   "Liverpool: Isak ve Gakpo yok (Iraola, 9 Eki)",
+   "Man United: Sesko ve Dorgu yok, Mazraoui supheli (Carrick)",
+   "Real: Mbappe kadroda/ilk 11, Valverde kadroda",
+   "Gencler: Bernd Storck yeni hoca (9 Eki 15:18), Traore, Ulgun, Rodrigues, Niasse yok",
+   "GS: Osimhen belirsiz, ilk 11 ~19:00"
+  ],
+  "not": "Nesine ve statsbet verisi Chrome uzerinden (JS fetch) alindi; cihaz ve bulut kabugunda ag kapali"
+ },
+ "strateji": "9 Eki 2026'dan itibaren: hedef 15 bilmek, fiyat siniri yok -> tek bilete sigan en yuksek P(15) (bu hafta 7 uclu = 2.187 kolon)",
+ "son_kontrol_9ekim_aksam": {
+  "zaman": "2026-10-09 16:50",
+  "veri": "halk 16:49, statsbet Pinnacle 16:27, Nesine 16:28 (gzip ile; toto.py istek() duzeltildi)",
+  "final_degisiklik": {
+   "2": "33-26-41 -> 31-26-43 (Pinnacle 30.5-26.4-43.1, Nesine 30.4-26.7-43.0)",
+   "3": "47-29-24 -> 48-29-23 (Pinnacle 48.7-28.3-23.1)"
+  },
+  "I": {
+   "p15": 0.0287,
+   "p14": 0.162,
+   "p13": 0.424,
+   "getiri": "~%57 (4 tohum %53-58)",
+   "kar_olasiligi": 0.114,
+   "15_tutarsa_odeme_TL": {
+    "medyan": 96605,
+    "ceyrek_alt": 46780,
+    "ceyrek_ust": 196668,
+    "ortalama": 168215,
+    "diger_15_bilen_medyan": 802
+   },
+   "15_tutmazsa_odeme_TL": {
+    "medyan": 1261,
+    "yuzde90": 19396,
+    "ortalama": 7365
+   }
+  },
+  "D": {
+   "p15": 0.0205,
+   "p13": 0.374,
+   "getiri": "~%98 (92-103)",
+   "kar_olasiligi": 0.118,
+   "15_tutarsa_odeme_medyan_TL": 167138
+  },
+  "butce_tablosu_P15_maks": [
+   {
+    "kolon": 144,
+    "TL": 1440,
+    "p15": 0.0042,
+    "p13": 0.131,
+    "getiri": 0.41
+   },
+   {
+    "kolon": 2187,
+    "TL": 21870,
+    "bilet": 1,
+    "p15": 0.0287,
+    "p13": 0.424,
+    "getiri": 0.57
+   },
+   {
+    "kolon": 4374,
+    "TL": 43740,
+    "bilet": 2,
+    "p15": 0.0442,
+    "p13": 0.509,
+    "getiri": 0.52
+   },
+   {
+    "kolon": 6561,
+    "TL": 65610,
+    "bilet": 3,
+    "p15": 0.0574,
+    "p13": 0.582,
+    "getiri": 0.68
+   },
+   {
+    "kolon": 19683,
+    "TL": 196830,
+    "bilet": 8,
+    "p15": 0.1044,
+    "p13": 0.732,
+    "getiri": 0.7
+   }
+  ],
+  "L_guncel": {
+   "p15": 0.0024,
+   "p13": 0.097,
+   "getiri": "~%87 (80-101)"
+  },
+  "not": "I'nin yapisi haberden etkilenmez: 8 tekli (1,5,8,9,10,11,12,14) en olasi sonuc, 7 uclu en belirsiz maclar. GS ilk 11'i kuponu degistirmez."
+ },
+ "coklu_kuponlar": {
+  "J": {
+   "ad": "J - 3 bilet, 2.133 kolon, 21.330 TL (oynanmiyor: '540 TL dusurelim' yanlis anlasildi)",
+   "biletler": [
+    [
+     "1",
+     "12",
+     "102",
+     "102",
+     "2",
+     "102",
+     "102",
+     "1",
+     "2",
+     "2",
+     "1",
+     "1",
+     "102",
+     "1",
+     "102"
+    ],
+    [
+     "1",
+     "0",
+     "1",
+     "102",
+     "2",
+     "102",
+     "102",
+     "1",
+     "2",
+     "2",
+     "1",
+     "1",
+     "102",
+     "1",
+     "102"
+    ],
+    [
+     "1",
+     "102",
+     "102",
+     "2",
+     "2",
+     "12",
+     "102",
+     "1",
+     "10",
+     "2",
+     "1",
+     "1",
+     "12",
+     "1",
+     "12"
+    ]
+   ],
+   "kolon": 2133,
+   "TL": 21330,
+   "p15": 0.0302,
+   "p14": 0.166,
+   "p13": 0.426,
+   "p12": 0.708,
+   "getiri": "~%58 (4 tohum %55-60)",
+   "kar_olasiligi": 0.122,
+   "yapi": "I - R + A. R = (2: 0) ve (3: 0-2), 486 kolon cikarildi. A = 9: 1-0 sapmasi x (4: 2, 6: 1-2, 13: 1-2, 15: 1-2), 432 kolon eklendi.",
+   "neden": "Kullanici 9 Eki 17:05: '540 TL dusurelim ama kazanma oranimiz degismesin'. Tek bilette 2.133 kolon yazilamaz (3^3 x 79)."
+  },
+  "Y": {
+   "ad": "Y - 3 bilet, 2.133 kolon, 21.330 TL, 15 maks (alternatif)",
+   "biletler": [
+    [
+     "1",
+     "102",
+     "10",
+     "102",
+     "2",
+     "102",
+     "102",
+     "1",
+     "2",
+     "2",
+     "1",
+     "1",
+     "102",
+     "1",
+     "102"
+    ],
+    [
+     "1",
+     "102",
+     "2",
+     "2",
+     "2",
+     "102",
+     "102",
+     "1",
+     "2",
+     "2",
+     "1",
+     "1",
+     "102",
+     "1",
+     "102"
+    ],
+    [
+     "1",
+     "12",
+     "10",
+     "2",
+     "2",
+     "102",
+     "102",
+     "1",
+     "10",
+     "2",
+     "1",
+     "1",
+     "12",
+     "1",
+     "102"
+    ]
+   ],
+   "p15": 0.0311,
+   "p14": 0.167,
+   "p13": 0.425,
+   "p12": 0.702,
+   "getiri": "~%45 (44-47)",
+   "kar_olasiligi": 0.112
+  },
+  "I_eksi_54": {
+   "ad": "I'dan en olasiliksiz 54 kolon cikar (4 bilet)",
+   "p15": 0.0285,
+   "p13": 0.422,
+   "getiri": "~%56"
+  }
+ },
+ "butce_540": {
+  "zaman": "2026-10-09 17:30",
+  "not": "Kullanici '540tl dusurelim kuponu' demisti, 21.330 TL'lik J hazirlandi. Netlestirdi: 'toplam fiyat 540 tl olsun'.",
+  "N": {
+   "p15": 0.0021,
+   "p14": 0.02,
+   "p13": 0.088,
+   "p12": 0.24,
+   "getiri": "~%29 (28-31)",
+   "kar_olasiligi": 0.078,
+   "15_tutarsa_odeme_TL": {
+    "medyan": 11093,
+    "ceyrek_alt": 9679,
+    "ceyrek_ust": 11648,
+    "diger_15_bilen_medyan": 5180
+   }
+  },
+  "N2": {
+   "p15": 0.0017,
+   "p14": 0.017,
+   "p13": 0.079,
+   "getiri": "~%46 (45-47)",
+   "kar_olasiligi": 0.079,
+   "15_tutarsa_odeme_TL": {
+    "medyan": 14555,
+    "ortalama": 27620,
+    "ceyrek_ust": 31588
+   }
+  },
+  "ust_sinir_54_kolon_p15": 0.00222,
+  "not2": "54 kolonda 15/14+/13+'yi ayni sistem (N) maksimize ediyor; cok biletli bolme en fazla +0,012 puan getirir, gerek yok."
+ },
+ "oynanan_teyit": {
+  "zaman": "2026-10-09 17:35",
+  "kupon": "N",
+  "kolon": 54,
+  "tutar_TL": 540,
+  "not": "Kullanici: 'N'yi oynadim'"
+ },
+ "surpriz_kuponlari": {
+  "zaman": "2026-10-09 18:20",
+  "istek": "Kullanici: 'en ucuz surprizli 1 2 tane daha kupon yapalim mi'",
+  "yontem": "araclar/surpriz_ara.py (4/8/12 kolon, P15 >= 1/20.000 ve 1/6.700, N ile ayrik) + araclar/kesin_kazanc.py (orneklemesiz tam getiri)",
+  "S2": {
+   "p15": 5.68e-05,
+   "p13": 0.0078,
+   "getiri_model": 3.78,
+   "getiri_makul": "%150-300",
+   "15_tutarsa_medyan_TL": 1771603,
+   "diger_15_bilen": {
+    "ortalama": 51.9,
+    "medyan": 22.8
+   },
+   "kar_olasiligi": 0.031
+  },
+  "S1": {
+   "p15": 0.000158,
+   "p13": 0.0148,
+   "getiri_model": 1.2,
+   "getiri_makul": "%80-130",
+   "15_tutarsa_medyan_TL": 156310,
+   "kar_olasiligi": 0.047
+  },
+  "T4": {
+   "p15": 5.4e-05,
+   "p13": 0.0071,
+   "getiri_model": 2.14,
+   "15_tutarsa_medyan_TL": 482254
+  },
+  "dogrulama": "Iki bagimsiz ajan: hesaplar birebir dogrulandi (kolon, ayriklik, P15, odeme). Model riski: alfa=1,15 surpriz payini Nesine'den de asagi cekiyor; halk surprizleri birlikte oynuyorsa (korelasyon) getiri dusuk. Makul aralik S2 %150-300, S1 %80-130. S2'nin 15 degerinin %75'i Rize'nin kazandigi 4 kolondan (toplam 1/64.549). Haftalarin %94-96'sinda 0 oderler.",
+  "haber": "16:30 sonrasi surprizleri degistiren haber yok (2 ajan + dogrulama): Fener tam kadro, Real'de Valverde/Konate dondu, Bayern rotasyon yok.",
+  "oynandi": {
+   "kupon": "S2",
+   "kolon": 8,
+   "tutar_TL": 80,
+   "zaman": "2026-10-09 18:26",
+   "not": "Kullanici: 'S2'yi oynadim'"
+  }
+ },
+ "oynanan_kuponlar": [
+  "N - 54 kolon 540 TL 15 maks (OYNANDI)",
+  "S2 - 8 kolon 80 TL buyuk surpriz (Erzurum + Samsun; OYNANDI)"
+ ],
+ "oynanan_toplam_TL": 620
+}

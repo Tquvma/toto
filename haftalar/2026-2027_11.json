@@ -1,0 +1,1100 @@
+{
+ "sezon": "2026/2027",
+ "hafta": 11,
+ "tur_id": 1538,
+ "kapanis": "2026-10-23 19:55",
+ "maclar": [
+  {
+   "no": 1,
+   "tarih": "2026-10-23 20:00",
+   "ev": "Corendon Alanyaspor",
+   "dep": "Kocaelispor",
+   "lig": "Süper Lig 2026/2027 Sezonu",
+   "milli": false,
+   "nesine": {
+    "oran": [
+     1.77,
+     2.91,
+     3.6
+    ],
+    "olasilik": [
+     0.4762,
+     0.2897,
+     0.2341
+    ],
+    "marj": 0.1864,
+    "zaman": "2026-10-23 11:01"
+   },
+   "piyasa": [
+    0.4832,
+    0.2911,
+    0.2258
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "halk": [
+    0.44,
+    0.35,
+    0.21
+   ],
+   "halk_zaman": "2026-10-23 11:01",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/alanyaspor-vs-kocaelispor-2026-10-23",
+    "zaman": "2026-10-23 11:01",
+    "bet365": {
+     "oran": [
+      1.9,
+      3.2,
+      4.0
+     ],
+     "olasilik": [
+      0.4834,
+      0.287,
+      0.2296
+     ]
+    },
+    "Pinnacle": {
+     "oran": [
+      2.0,
+      3.32,
+      4.28
+     ],
+     "olasilik": [
+      0.4832,
+      0.2911,
+      0.2258
+     ]
+    }
+   },
+   "final": [
+    0.48,
+    0.29,
+    0.23
+   ]
+  },
+  {
+   "no": 2,
+   "tarih": "2026-10-24 13:30",
+   "ev": "Eyüpspor",
+   "dep": "Kasımpaşa",
+   "lig": "Süper Lig 2026/2027 Sezonu",
+   "milli": false,
+   "nesine": {
+    "oran": [
+     4.96,
+     3.56,
+     1.42
+    ],
+    "olasilik": [
+     0.1699,
+     0.2367,
+     0.5934
+    ],
+    "marj": 0.1867,
+    "zaman": "2026-10-23 11:01"
+   },
+   "piyasa": [
+    0.1617,
+    0.2346,
+    0.6037
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "halk": [
+    0.11,
+    0.18,
+    0.71
+   ],
+   "halk_zaman": "2026-10-23 11:01",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/ey-pspor-vs-kas-mpa-a-2026-10-24",
+    "zaman": "2026-10-23 11:01",
+    "bet365": {
+     "oran": [
+      5.75,
+      3.8,
+      1.55
+     ],
+     "olasilik": [
+      0.1607,
+      0.2432,
+      0.5961
+     ]
+    },
+    "Pinnacle": {
+     "oran": [
+      5.86,
+      4.04,
+      1.57
+     ],
+     "olasilik": [
+      0.1617,
+      0.2346,
+      0.6037
+     ]
+    }
+   },
+   "final": [
+    0.162,
+    0.232,
+    0.606
+   ]
+  },
+  {
+   "no": 3,
+   "tarih": "2026-10-24 16:00",
+   "ev": "Gaziantep FK",
+   "dep": "Erzurumspor FK",
+   "lig": "Süper Lig 2026/2027 Sezonu",
+   "milli": false,
+   "nesine": {
+    "oran": [
+     1.98,
+     2.85,
+     3
+    ],
+    "olasilik": [
+     0.4247,
+     0.295,
+     0.2803
+    ],
+    "marj": 0.1893,
+    "zaman": "2026-10-23 11:01"
+   },
+   "piyasa": [
+    0.4229,
+    0.3172,
+    0.26
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "halk": [
+    0.54,
+    0.3,
+    0.16
+   ],
+   "halk_zaman": "2026-10-23 11:01",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/gaziantep-f-k-vs-erzurumspor-fk-2026-10-24",
+    "zaman": "2026-10-23 11:01",
+    "bet365": {
+     "oran": [
+      2.15,
+      3.2,
+      3.2
+     ],
+     "olasilik": [
+      0.4267,
+      0.2867,
+      0.2867
+     ]
+    },
+    "Pinnacle": {
+     "oran": [
+      2.25,
+      3.0,
+      3.66
+     ],
+     "olasilik": [
+      0.4229,
+      0.3172,
+      0.26
+     ]
+    }
+   },
+   "final": [
+    0.42,
+    0.32,
+    0.26
+   ]
+  },
+  {
+   "no": 4,
+   "tarih": "2026-10-24 19:00",
+   "ev": "Samsunspor",
+   "dep": "Amed Sportif Faaliyetler",
+   "lig": "Süper Lig 2026/2027 Sezonu",
+   "milli": false,
+   "nesine": {
+    "oran": [
+     3.11,
+     3.19,
+     1.8
+    ],
+    "olasilik": [
+     0.2701,
+     0.2633,
+     0.4666
+    ],
+    "marj": 0.1906,
+    "zaman": "2026-10-23 11:01"
+   },
+   "piyasa": [
+    0.2701,
+    0.2633,
+    0.4666
+   ],
+   "piyasa_kaynak": "Nesine",
+   "halk": [
+    0.26,
+    0.27,
+    0.47
+   ],
+   "halk_zaman": "2026-10-23 11:01",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/samsunspor-vs-amed-sk-2026-10-24",
+    "zaman": "2026-10-23 11:01",
+    "bet365": {
+     "oran": [
+      3.3,
+      3.4,
+      2.05
+     ],
+     "olasilik": [
+      0.2793,
+      0.2711,
+      0.4496
+     ]
+    }
+   },
+   "final": [
+    0.3,
+    0.27,
+    0.43
+   ],
+   "final_not": "Pinnacle 22 Eki 32-27-41, Nesine 23 Eki 27-26-47 -> ortalama"
+  },
+  {
+   "no": 5,
+   "tarih": "2026-10-25 16:00",
+   "ev": "Tümosan Konyaspor",
+   "dep": "Gençlerbirliği",
+   "lig": "Süper Lig 2026/2027 Sezonu",
+   "milli": false,
+   "nesine": {
+    "oran": [
+     1.68,
+     3.11,
+     3.7
+    ],
+    "olasilik": [
+     0.5014,
+     0.2709,
+     0.2277
+    ],
+    "marj": 0.1871,
+    "zaman": "2026-10-23 11:01"
+   },
+   "piyasa": [
+    0.4931,
+    0.2759,
+    0.231
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "halk": [
+    0.54,
+    0.27,
+    0.19
+   ],
+   "halk_zaman": "2026-10-23 11:01",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/konyaspor-vs-gen-lerbirli-i-2026-10-25",
+    "zaman": "2026-10-23 11:01",
+    "bet365": {
+     "oran": [
+      1.83,
+      3.4,
+      4.0
+     ],
+     "olasilik": [
+      0.5011,
+      0.2697,
+      0.2292
+     ]
+    },
+    "Pinnacle": {
+     "oran": [
+      1.93,
+      3.45,
+      4.12
+     ],
+     "olasilik": [
+      0.4931,
+      0.2759,
+      0.231
+     ]
+    }
+   },
+   "final": [
+    0.49,
+    0.28,
+    0.23
+   ]
+  },
+  {
+   "no": 6,
+   "tarih": "2026-10-25 19:00",
+   "ev": "Göztepe",
+   "dep": "Arca Çorum FK",
+   "lig": "Süper Lig 2026/2027 Sezonu",
+   "milli": false,
+   "nesine": {
+    "oran": [
+     1.94,
+     3.24,
+     2.75
+    ],
+    "olasilik": [
+     0.434,
+     0.2599,
+     0.3062
+    ],
+    "marj": 0.1877,
+    "zaman": "2026-10-23 11:01"
+   },
+   "piyasa": [
+    0.4347,
+    0.2659,
+    0.2994
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "halk": [
+    0.47,
+    0.29,
+    0.24
+   ],
+   "halk_zaman": "2026-10-23 11:01",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/g-ztepe-vs-orum-fk-2026-10-25",
+    "zaman": "2026-10-23 11:01",
+    "bet365": {
+     "oran": [
+      2.15,
+      3.5,
+      3.0
+     ],
+     "olasilik": [
+      0.429,
+      0.2635,
+      0.3075
+     ]
+    },
+    "Pinnacle": {
+     "oran": [
+      2.19,
+      3.58,
+      3.18
+     ],
+     "olasilik": [
+      0.4347,
+      0.2659,
+      0.2994
+     ]
+    }
+   },
+   "final": [
+    0.43,
+    0.27,
+    0.3
+   ]
+  },
+  {
+   "no": 7,
+   "tarih": "2026-10-26 19:00",
+   "ev": "Beşiktaş",
+   "dep": "İstanbul Başakşehir",
+   "lig": "Süper Lig 2026/2027 Sezonu",
+   "milli": false,
+   "nesine": {
+    "oran": [
+     1.21,
+     4.96,
+     6.32
+    ],
+    "olasilik": [
+     0.6967,
+     0.17,
+     0.1334
+    ],
+    "marj": 0.1863,
+    "zaman": "2026-10-23 11:01"
+   },
+   "piyasa": [
+    0.6819,
+    0.1805,
+    0.1376
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "halk": [
+    0.82,
+    0.12,
+    0.06
+   ],
+   "halk_zaman": "2026-10-23 11:01",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/be-ikta-vs-stanbul-ba-ak-ehir-2026-10-26",
+    "zaman": "2026-10-23 11:01",
+    "bet365": {
+     "oran": [
+      1.33,
+      5.0,
+      7.0
+     ],
+     "olasilik": [
+      0.6868,
+      0.1827,
+      0.1305
+     ]
+    },
+    "Pinnacle": {
+     "oran": [
+      1.39,
+      5.25,
+      6.89
+     ],
+     "olasilik": [
+      0.6819,
+      0.1805,
+      0.1376
+     ]
+    }
+   },
+   "final": [
+    0.68,
+    0.18,
+    0.14
+   ]
+  },
+  {
+   "no": 8,
+   "tarih": "2026-10-26 19:00",
+   "ev": "Çaykur Rizespor",
+   "dep": "Trabzonspor",
+   "lig": "Süper Lig 2026/2027 Sezonu",
+   "milli": false,
+   "nesine": {
+    "oran": [
+     3.1,
+     3.45,
+     1.74
+    ],
+    "olasilik": [
+     0.2717,
+     0.2442,
+     0.4841
+    ],
+    "marj": 0.1871,
+    "zaman": "2026-10-23 11:01"
+   },
+   "piyasa": [
+    0.2717,
+    0.2442,
+    0.4841
+   ],
+   "piyasa_kaynak": "Nesine",
+   "halk": [
+    0.12,
+    0.17,
+    0.71
+   ],
+   "halk_zaman": "2026-10-23 11:01",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/rizespor-vs-trabzonspor-2026-10-26",
+    "zaman": "2026-10-23 11:01",
+    "bet365": {
+     "oran": [
+      3.5,
+      3.7,
+      1.9
+     ],
+     "olasilik": [
+      0.264,
+      0.2497,
+      0.4863
+     ]
+    }
+   },
+   "final": [
+    0.27,
+    0.24,
+    0.49
+   ]
+  },
+  {
+   "no": 9,
+   "tarih": "2026-10-26 21:30",
+   "ev": "Galatasaray",
+   "dep": "Fenerbahçe",
+   "lig": "Süper Lig 2026/2027 Sezonu",
+   "milli": false,
+   "nesine": {
+    "oran": [
+     1.95,
+     3.38,
+     2.63
+    ],
+    "olasilik": [
+     0.4313,
+     0.2488,
+     0.3198
+    ],
+    "marj": 0.1889,
+    "zaman": "2026-10-23 11:01"
+   },
+   "piyasa": [
+    0.4308,
+    0.2519,
+    0.3173
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "halk": [
+    0.48,
+    0.29,
+    0.23
+   ],
+   "halk_zaman": "2026-10-23 11:01",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/galatasaray-vs-fenerbah-e-2026-10-26",
+    "zaman": "2026-10-23 11:01",
+    "bet365": {
+     "oran": [
+      2.2,
+      3.8,
+      2.8
+     ],
+     "olasilik": [
+      0.4229,
+      0.2448,
+      0.3323
+     ]
+    },
+    "Pinnacle": {
+     "oran": [
+      2.21,
+      3.78,
+      3.0
+     ],
+     "olasilik": [
+      0.4308,
+      0.2519,
+      0.3173
+     ]
+    }
+   },
+   "final": [
+    0.43,
+    0.25,
+    0.32
+   ]
+  },
+  {
+   "no": 10,
+   "tarih": "2026-10-24 19:30",
+   "ev": "Borussia Dortmund",
+   "dep": "Eintracht Frankfurt",
+   "lig": "Bundesliga 2026/2027 Sezonu",
+   "milli": false,
+   "nesine": {
+    "oran": [
+     1.29,
+     4.61,
+     5.05
+    ],
+    "olasilik": [
+     0.6514,
+     0.1823,
+     0.1664
+    ],
+    "marj": 0.1901,
+    "zaman": "2026-10-23 11:01"
+   },
+   "piyasa": [
+    0.6507,
+    0.1852,
+    0.1641
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "halk": [
+    0.78,
+    0.14,
+    0.08
+   ],
+   "halk_zaman": "2026-10-23 11:01",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/borussia-dortmund-vs-eintracht-frankfurt-2026-10-24",
+    "zaman": "2026-10-23 11:01",
+    "bet365": {
+     "oran": [
+      1.48,
+      5.0,
+      5.75
+     ],
+     "olasilik": [
+      0.6438,
+      0.1906,
+      0.1657
+     ]
+    },
+    "Pinnacle": {
+     "oran": [
+      1.48,
+      5.2,
+      5.87
+     ],
+     "olasilik": [
+      0.6507,
+      0.1852,
+      0.1641
+     ]
+    }
+   },
+   "final": [
+    0.65,
+    0.19,
+    0.16
+   ]
+  },
+  {
+   "no": 11,
+   "tarih": "2026-10-25 17:00",
+   "ev": "Monaco",
+   "dep": "Lille",
+   "lig": "Ligue 1 2026/2027 Sezonu",
+   "milli": false,
+   "nesine": {
+    "oran": [
+     1.84,
+     3.06,
+     3.16
+    ],
+    "olasilik": [
+     0.458,
+     0.2754,
+     0.2667
+    ],
+    "marj": 0.1867,
+    "zaman": "2026-10-23 11:01"
+   },
+   "piyasa": [
+    0.4626,
+    0.2895,
+    0.2479
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "halk": [
+    0.54,
+    0.3,
+    0.16
+   ],
+   "halk_zaman": "2026-10-23 11:01",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/monaco-vs-losc-lille-2026-10-25",
+    "zaman": "2026-10-23 11:01",
+    "bet365": {
+     "oran": [
+      2.05,
+      3.4,
+      3.7
+     ],
+     "olasilik": [
+      0.4636,
+      0.2795,
+      0.2569
+     ]
+    },
+    "Pinnacle": {
+     "oran": [
+      2.09,
+      3.34,
+      3.9
+     ],
+     "olasilik": [
+      0.4626,
+      0.2895,
+      0.2479
+     ]
+    }
+   },
+   "final": [
+    0.46,
+    0.29,
+    0.25
+   ]
+  },
+  {
+   "no": 12,
+   "tarih": "2026-10-25 22:45",
+   "ev": "Paris St Germain",
+   "dep": "Olympique Lyon",
+   "lig": "Ligue 1 2026/2027 Sezonu",
+   "milli": false,
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/paris-saint-germain-vs-olympique-lyonnais-2026-10-25",
+    "zaman": "2026-10-23 11:01",
+    "bet365": {
+     "oran": [
+      1.45,
+      4.75,
+      6.5
+     ],
+     "olasilik": [
+      0.6543,
+      0.1997,
+      0.146
+     ]
+    },
+    "Pinnacle": {
+     "oran": [
+      1.45,
+      5.39,
+      6.13
+     ],
+     "olasilik": [
+      0.6642,
+      0.1787,
+      0.1571
+     ]
+    }
+   },
+   "piyasa": [
+    0.6642,
+    0.1787,
+    0.1571
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "halk": [
+    0.76,
+    0.15,
+    0.09
+   ],
+   "halk_zaman": "2026-10-23 11:01",
+   "nesine": {
+    "oran": [
+     1.28,
+     4.57,
+     5.37
+    ],
+    "olasilik": [
+     0.6586,
+     0.1845,
+     0.157
+    ],
+    "marj": 0.1863,
+    "zaman": "2026-10-23 11:01"
+   },
+   "final": [
+    0.66,
+    0.18,
+    0.16
+   ]
+  },
+  {
+   "no": 13,
+   "tarih": "2026-10-24 19:30",
+   "ev": "Chelsea",
+   "dep": "Tottenham Hotspur",
+   "lig": "Premier Lig 2026/2027 Sezonu",
+   "milli": false,
+   "nesine": {
+    "oran": [
+     1.54,
+     3.65,
+     3.81
+    ],
+    "olasilik": [
+     0.5476,
+     0.231,
+     0.2213
+    ],
+    "marj": 0.1858,
+    "zaman": "2026-10-23 11:01"
+   },
+   "piyasa": [
+    0.5541,
+    0.2253,
+    0.2206
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "halk": [
+    0.7,
+    0.18,
+    0.12
+   ],
+   "halk_zaman": "2026-10-23 11:01",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/chelsea-vs-tottenham-hotspur-2026-10-24",
+    "zaman": "2026-10-23 11:01",
+    "bet365": {
+     "oran": [
+      1.7,
+      4.0,
+      4.5
+     ],
+     "olasilik": [
+      0.5547,
+      0.2357,
+      0.2096
+     ]
+    },
+    "Pinnacle": {
+     "oran": [
+      1.74,
+      4.28,
+      4.37
+     ],
+     "olasilik": [
+      0.5541,
+      0.2253,
+      0.2206
+     ]
+    }
+   },
+   "final": [
+    0.55,
+    0.23,
+    0.22
+   ]
+  },
+  {
+   "no": 14,
+   "tarih": "2026-10-25 23:00",
+   "ev": "Barcelona",
+   "dep": "Real Madrid",
+   "lig": "La Liga 2026/2027 Sezonu",
+   "milli": false,
+   "nesine": {
+    "oran": [
+     1.43,
+     4.83,
+     3.57
+    ],
+    "olasilik": [
+     0.5894,
+     0.1745,
+     0.2361
+    ],
+    "marj": 0.1865,
+    "zaman": "2026-10-23 11:01"
+   },
+   "piyasa": [
+    0.5946,
+    0.1603,
+    0.2451
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "halk": [
+    0.58,
+    0.22,
+    0.2
+   ],
+   "halk_zaman": "2026-10-23 11:01",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/fc-barcelona-vs-real-madrid-2026-10-25",
+    "zaman": "2026-10-23 11:01",
+    "bet365": {
+     "oran": [
+      1.61,
+      5.75,
+      3.9
+     ],
+     "olasilik": [
+      0.5907,
+      0.1654,
+      0.2439
+     ]
+    },
+    "Pinnacle": {
+     "oran": [
+      1.62,
+      6.01,
+      3.93
+     ],
+     "olasilik": [
+      0.5946,
+      0.1603,
+      0.2451
+     ]
+    }
+   },
+   "final": [
+    0.59,
+    0.16,
+    0.25
+   ]
+  },
+  {
+   "no": 15,
+   "tarih": "2026-10-24 19:00",
+   "ev": "Napoli",
+   "dep": "Roma",
+   "lig": "Serie A 2026/2027 Sezonu",
+   "milli": false,
+   "nesine": {
+    "oran": [
+     2.46,
+     2.93,
+     2.26
+    ],
+    "olasilik": [
+     0.3415,
+     0.2867,
+     0.3717
+    ],
+    "marj": 0.1903,
+    "zaman": "2026-10-23 11:01"
+   },
+   "piyasa": [
+    0.3472,
+    0.2816,
+    0.3712
+   ],
+   "piyasa_kaynak": "Pinnacle",
+   "halk": [
+    0.26,
+    0.35,
+    0.39
+   ],
+   "halk_zaman": "2026-10-23 11:01",
+   "statsbet": {
+    "url": "https://statsbet.org/football/matches/napoli-vs-roma-2026-10-24",
+    "zaman": "2026-10-23 11:01",
+    "bet365": {
+     "oran": [
+      2.87,
+      3.1,
+      2.6
+     ],
+     "olasilik": [
+      0.3301,
+      0.3056,
+      0.3643
+     ]
+    },
+    "Pinnacle": {
+     "oran": [
+      2.79,
+      3.44,
+      2.61
+     ],
+     "olasilik": [
+      0.3472,
+      0.2816,
+      0.3712
+     ]
+    }
+   },
+   "final": [
+    0.35,
+    0.28,
+    0.37
+   ]
+  }
+ ],
+ "kuponlar": [
+  {
+   "ad": "B - 48 kolon 15 maks (ana oneri)",
+   "secimler": [
+    "1",
+    "2",
+    "10",
+    "12",
+    "1",
+    "12",
+    "1",
+    "2",
+    "12",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "102"
+   ]
+  },
+  {
+   "ad": "C - 48 kolon dengeli (Rize-TS 1-2, Goztepe tek 1)",
+   "secimler": [
+    "1",
+    "2",
+    "10",
+    "12",
+    "1",
+    "1",
+    "1",
+    "12",
+    "12",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "102"
+   ]
+  },
+  {
+   "ad": "D - 48 kolon deger (gosterim)",
+   "secimler": [
+    "1",
+    "2",
+    "102",
+    "2",
+    "1",
+    "1",
+    "1",
+    "12",
+    "12",
+    "1",
+    "1",
+    "12",
+    "10",
+    "1",
+    "1"
+   ]
+  },
+  {
+   "ad": "A - ilk sezgisel oneri 48 kolon",
+   "secimler": [
+    "10",
+    "2",
+    "1",
+    "2",
+    "1",
+    "12",
+    "1",
+    "2",
+    "102",
+    "1",
+    "12",
+    "1",
+    "1",
+    "1",
+    "12"
+   ]
+  }
+ ],
+ "final_zaman": "2026-10-23 14:05",
+ "son_kontrol_23ekim": {
+  "zaman": "2026-10-23 14:05",
+  "B": {
+   "p15": 0.000899,
+   "p13": 0.0462,
+   "getiri": 0.28,
+   "15_tutarsa_medyan_TL": 16193
+  },
+  "C": {
+   "p15": 0.000822,
+   "p13": 0.0439,
+   "getiri": 0.39,
+   "15_tutarsa_medyan_TL": 19416
+  },
+  "D": {
+   "p15": 0.000403,
+   "p13": 0.0283,
+   "getiri": 0.82,
+   "15_tutarsa_medyan_TL": 61285
+  },
+  "haber": [
+   "Lille 2-4 Galatasaray (21 Eki, UCL)",
+   "Barcelona: Olmo ~1 ay yok, Garcia yok, Kounde supheli",
+   "Real: Vinicius 4 mac cezali (Al Jazeera/thefalse9), Mbappe oynuyor",
+   "Haberler Pinnacle oranlarina yansimis; final = piyasa (Samsun-Amed Pinnacle/Nesine ortalamasi)"
+  ]
+ }
+}
