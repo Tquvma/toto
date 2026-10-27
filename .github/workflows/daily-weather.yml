@@ -2,8 +2,8 @@ name: Günlük hava durumu
 
 on:
   schedule:
-    # 22:00 UTC = 01:00 Türkiye saati (GMT+3)
-    - cron: "0 22 * * *"
+    # 21:53 UTC = 00:53 Türkiye saati (GMT+3); tam saat başı yoğun olduğu için kaydırıldı
+    - cron: "53 21 * * *"
   workflow_dispatch:
 
 jobs:
