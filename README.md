@@ -1,6 +1,6 @@
 # toto
 
-Her sabah 06:10'da (Türkiye saati) Bursa ve Pattaya'nın günlük hava durumunu Telegram'a gönderen bot.
+Her gece 01:00'de (Türkiye saati) Bursa ve Pattaya'nın günlük hava durumunu Telegram'a gönderen bot.
 Hava durumu verisi [Open-Meteo](https://open-meteo.com)'dan gelir; API anahtarı gerekmez.
 Zamanlamayı GitHub Actions yapar, sunucu gerekmez.
 
@@ -21,7 +21,7 @@ Workflow'un çalışması için bu dosyaların varsayılan dalda (`main`) olmas�
 
 ## Kur botu
 
-Döviz ve altın kurları, hava durumu botundan bağımsız **ikinci bir bottan** her sabah 10:00'da gelir:
+Döviz ve altın kurları, hava durumu botundan bağımsız **ikinci bir bottan** her gece 01:00'de gelir:
 dolar, euro, Tayland bahtı ve gram altın (TL), bir önceki güne göre değişimiyle.
 Veri [fawazahmed0/exchange-api](https://github.com/fawazahmed0/exchange-api)'den gelir; API anahtarı gerekmez.
 Gram altın ons fiyatından hesaplanır, kuyumcu fiyatından biraz farklı olabilir.
